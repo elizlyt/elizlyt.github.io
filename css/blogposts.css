@@ -1,0 +1,48 @@
+html{
+    background-color: lightslategrey;
+}
+
+h1{
+    color:lightsteelblue;
+    border:5%
+    
+}
+
+.posts{
+    background-color: powderblue;
+    border:5px solid;
+    width:500px;
+    height:auto;
+}
+
+.box-a{
+    background-color: lightyellow;
+    margin-top: 2%;
+}
+
+/*Site Navigation*/
+.site-nav{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.site-nav ul{
+    margin:0;
+    padding:0;
+}
+.site-nav li{
+    list-style: none;
+    float:left;
+    margin-right:5px;
+    margin-bottom: 0.5%;
+}
+
+.site-nav a{
+    color: lightseagreen;
+    text-decoration: none;
+    padding:10px 20px;
+    border:2px solid;
+/* End of Site Navigation*/
+
+.achievements{
+    text-decoration:underline;
+}
