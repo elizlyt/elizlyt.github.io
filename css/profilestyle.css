@@ -1,5 +1,6 @@
 html{
-    background-color: lightyellow;
+    background-color:lightyellow;
+   
 }
 header{
     background:url("images/sunset.jpg");
@@ -22,104 +23,13 @@ header{
     text-transform: uppercase;
 }
 
-.past-experiences{
-    font-size: 250%;
+h1{
+    text-align: left;
+    padding-top: 5%;
 }
 
-
-/*images*/
-.column {
-    float: left;
-    width: 30%;
-    border: 3px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
-/*end of images*/
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
- /* contacts section*/
-
- .socialize{
-    font-weight:lighter;
-    font-size: 50px;
-    color: palevioletred;
-    text-align: center;
-    padding-top: 50px;
-    margin: bottom 0;
-}
-.social-media{
-    color: lightsteelblue;
-    text-align: center;
-    font-family: source sans pro;
-    font-weight: lighter;
-    font-size: 20px;
-    margin top: 0;
-}
-
-.white{
-    list-style:none;
-    margin: 6%;
-    display:inline-block;
-    font-size: 75px;
-    padding:50 px 50 px;
-    border-radius: 50%;
-    
-}
-
-.fa-linkedin{
-    color:lightslategray;
-    text-decoration: none;
-    align-items: center;
-    
-}
-
-.fa-github{
-    color:lightslategray;    
-    text-decoration: none;
-    align-items: center;
-
-}
-
-.fa-instagram{
-    color:lightslategray;
-    text-decoration: none;
-    align-items: center;
-
-}
-
-.fa-youtube{
-    color:lightslategray;
-    text-decoration: none;
-    align-items: center;
-}
-
-.fa-linkedin:hover{
-   color:#0e76a8;
-   transition:1.5s;
-}
-
-.fa-github:hover{
-    color:#6e5494;
-    transition:1.5s;
-}
-
-.fa-instagram:hover{
-    color:#C13584;
-    transition:1.5s;
-}
-
-.fa-youtube:hover{
-    color:#FF0000;
-    transition:1.5s;
+.mcd{
+ border: 5px solid green;
 }
 
 /*Site Navigation*/
@@ -151,4 +61,3 @@ header{
 }
 
 /* End of Site Navigation*/
-
