@@ -27,6 +27,7 @@ header{
 }
 
 
+
 /*images*/
 .column {
     float: left;
@@ -151,4 +152,15 @@ header{
 }
 
 /* End of Site Navigation*/
+
+@media screen and (max-width:700px){
+
+    .column{
+        width:auto;
+        float:none;
+    }
+    .site-nav li{
+        margin-bottom: 4%;
+    }
+}
 

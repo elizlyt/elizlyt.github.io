@@ -1,5 +1,5 @@
 html{
-    background-color:lightyellow;
+    background-color:lightsteelblue;
    
 }
 header{
@@ -24,14 +24,68 @@ header{
 }
 
 h1{
-    text-align: left;
+    text-align: center;
     padding-top: 5%;
 }
 
-.mcd{
- border: 5px solid green;
+.heading{
+    text-align: center;
+}
+.tinayong{
+    border:5px solid lightslategray;
+    padding:1%;
+    margin bottom: 2%;
+    float: left;
+    width: 33%;
+    height:40%;
+    margin-left: 80px;
+    margin-right: 220px;
+    margin-top: 20px;
+    text-align: left;
 }
 
+.mcd{
+    border: 5px solid lightslategray;
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+    width: 33%;
+    height:40%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-align: left;
+ 
+}
+
+.shopee{
+    border:5px solid lightslategray;
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+    width: 33%;
+    height:40%;
+    margin-left: 80px;
+    margin-right: 220px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.freelance{
+    border:5px solid lightslategray;
+    padding:1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+    width: 33%;
+    height:20%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
 /*Site Navigation*/
 .site-nav{
     margin-top: 0px;
